@@ -8,6 +8,7 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
+    "prestart": "rndebugger-open",
     "start": "expo start",
     "test": "jest"
   },
@@ -25,6 +26,7 @@
     "@babel/runtime": "^7.9.6",
     "babel-plugin-module-resolver": "^4.0.0",
     "babel-preset-expo": "^8.2.3",
-    "expo-cli": "^3.21.12"
+    "expo-cli": "^3.21.12",
+    "react-native-debugger-open": "^0.3.25"
   }
 }
